@@ -3,7 +3,7 @@ const buttonWomen = document.querySelector('.header__button-gender_women');
 const body = document.body;
 
 const state = {
-  gender: body.classList.contains('woman') ? ('women') : ('men'),
+  gender: body.classList.contains('women') ? ('women') : ('men'),
 }
 
 const changeToMen = () => {
