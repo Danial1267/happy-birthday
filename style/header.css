@@ -1,0 +1,82 @@
+.container {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 28px 0;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 20px rgba(72, 3, 38, 0.07);
+  position: relative;
+  z-index: 1;
+}
+
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__button-change {
+  width: 300px;
+  height: 65px;
+  background: #C300C7;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-right: 30px;
+}
+
+.men .header__button-change {
+  width: 300px;
+  height: 65px;
+  background: #1178B2;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-right: 30px;
+}
+
+.header__button-change:last-child {
+  margin-right: 0;
+}
+
+.header__button-gender {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px;
+  margin-right: 20px;
+}
+
+.men .header__button-gender_men {
+  border: 1px solid #1178B2;
+}
+
+.women .header__button-gender_women {
+  border: 1px solid #C300C7;
+}
+
+.header__button-gender:last-child {
+  margin-right: 0;
+}
+
+.header__button-gender_men {
+  background-image: url('../img/men.svg');
+}
+
+.header__button-gender_women {
+  background-image: url('../img/women.svg');
+}

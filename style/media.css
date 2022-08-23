@@ -1,0 +1,36 @@
+@media (max-width: 880px) {
+    .container{
+      padding: 0 10px;
+    }
+
+    .header__button-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .header__button-change {
+      width: 220px;
+      height: 45px;
+      font-size: 14px;
+      margin-right: 0;
+    }
+
+    .header__button-gender {
+      width: 40px;
+      height: 40px;
+      background-size: 30px;
+      margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+  .footer__container{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer__contacts {
+    order: 1;
+  }
+}
