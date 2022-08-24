@@ -19,6 +19,22 @@
 }
 
 .social {
+  transition: opacity 0.3s ease-in;
+}
+
+.social:hover {
+  opacity: .5;
+}
+
+.women .social {
+  color: #C300C7;
+}
+
+.men .social {
+  color: #1178B2;
+}
+
+.social {
   margin-right: 16px;
 }
 
