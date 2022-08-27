@@ -36,3 +36,8 @@
   font-family: 'Open Sans';
   font-weight: 700;
 }
+
+.download {
+  text-align: center;
+  cursor: pointer;
+}
