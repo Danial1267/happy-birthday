@@ -87,7 +87,7 @@ downloadImg.addEventListener("click", () => {
     const dataUrl = canvas.toDataURL();
     const a = document.createElement("a");
     a.href = dataUrl;
-    a.download = "скачанный канвас" + ".png";
+    a.download = "Открытка" + ".png";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

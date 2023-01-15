@@ -39,5 +39,7 @@
 
 .download {
   text-align: center;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
 }
